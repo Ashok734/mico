@@ -69,6 +69,15 @@ jQuery("#carousel-banner").owlCarousel({
   }
 });
 
+// load notice
+$(document).ready(function(){  
+  if(localStorage.getItem('popState') != 'shown'){
+    $("#myModal").delay(2000).fadeIn();
+    localStorage.setItem('popState','shown')
+}
+$('#myModal').modal('show');
+}); 
+
 jQuery(".donation").owlCarousel({
   autoplay: true,
   lazyLoad: true,

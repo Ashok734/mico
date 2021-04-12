@@ -31,7 +31,7 @@
   </div>
   <!-- START HEADER -->
   <section id="header-wrapper">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
           <div class="r-text">
@@ -50,7 +50,7 @@
   </section>
   <!-- start navigation -->
   <nav class="navbar my-nav navbar-expand-lg navbar-light bg-light">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -242,14 +242,22 @@
         </div>
         <div class="col-md-8">
           <div class="grant-wrap-title">
-            <h2>Endowment Grants</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem quis voluptas totam voluptatibus sint
-              excepturi laudantium. Corrupti dignissimos reiciendis explicabo nesciunt. Placeat, provident? Quisquam a
-              deleniti facere praesentium odit fugiat.</p>
-            <hr>
+            <div class="row">
+              <div class="col-md-4">
+                <h2>Endowment Grants</h2>
+              </div>
+              <div class="col-md-8">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem quis voluptas totam voluptatibus sint
+                  excepturi laudantium. Corrupti dignissimos reiciendis explicabo nesciunt. Placeat, provident? Quisquam a
+                  deleniti facere praesentium odit fugiat.</p>
+              </div>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur obcaecati, est eum rerum
               corporis incidunt velit distinctio vel quo sequi recusandae magni provident repellendus nobis modi
               assumenda minima quam.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur obcaecati, est eum rerum
+                corporis incidunt velit distinctio vel quo sequi recusandae magni provident repellendus nobis modi
+                assumenda minima quam.</p>
           </div>
         </div>
       </div>
@@ -295,25 +303,21 @@
   </section>
   <section id="collapes-wrapper">
     <div class="container">
-      <div class="card">
-        <div class="card-header text-center">
-          <span>The Mico Foundation</span>
-        </div>
-        <div class="card-body">
+      
           <div class="flex flex-column mb-5 mt-4 faq-section">
             <div class="row">
               <div class="col-md-12">
                 <div id="accordion">
-                  <div class="card">
+                  <div class="card" style="border-top: 1px solid rgba(0,0,0,.125);">
                     <div class="card-header" id="heading-1">
                       <h5 class="mb-0">
-                        <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true"
-                          aria-controls="collapse-1">
-                          What is FXCopier?
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1"
+                          aria-expanded="false" aria-controls="collapse-2">
+                          How to get this trade copier?
                         </a>
                       </h5>
                     </div>
-                    <div id="collapse-1" class="collapse show" data-parent="#accordion" aria-labelledby="heading-1">
+                    <div id="collapse-1" class="collapse" data-parent="#accordion" aria-labelledby="heading-1">
                       <div class="card-body">
                         FXCOPIER is the worlds most reliable remote trade copier. Its allow you to copy trades almost
                         instantly between hundreds of MT4 accounts through the use of technology. Many of the industries
@@ -338,14 +342,60 @@
                       </div>
                     </div>
                   </div>
-
+                  <div class="card">
+                    <div class="card-header" id="heading-2">
+                      <h5 class="mb-0">
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3"
+                          aria-expanded="false" aria-controls="collapse-2">
+                          How to get this trade copier?
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+                      <div class="card-body">
+                        After subscription you will get our special trade copier. If you want to use this copier for
+                        business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading-2">
+                      <h5 class="mb-0">
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4"
+                          aria-expanded="false" aria-controls="collapse-2">
+                          How to get this trade copier?
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapse-4" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+                      <div class="card-body">
+                        After subscription you will get our special trade copier. If you want to use this copier for
+                        business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading-2">
+                      <h5 class="mb-0">
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2"
+                          aria-expanded="false" aria-controls="collapse-2">
+                          How to get this trade copier?
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+                      <div class="card-body">
+                        After subscription you will get our special trade copier. If you want to use this copier for
+                        business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-            </div>
+           
           </div>
         </div>
-      </div>
     </div>
   </section>
   <section id="footer-wrapper">
